@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: linux
+
+server:
+  port: 8020
+  error:
+    include-stacktrace: ON_PARAM
+
+# Logger Config
+logging:
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 30
+  file:
+    name: /tmp/logs/mas_hikvision.log
+  level:
+    org.now.mas: debug
+    org.springframework.web: debug

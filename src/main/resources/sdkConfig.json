@@ -1,0 +1,14 @@
+{
+  "windows": {
+    "sdkPath": "E:\\wl\\ideawork\\julifang\\mas-hikvision\\sdklib_win64",
+    "sdkFile": "HCNetSDK.dll",
+    "logModel": 3,
+    "logPath": "C:\\tmp\\hikvision\\sdk\\maslog\\"
+  },
+  "linux": {
+    "sdkPath": "/var/jenkins_home/workspace/julifang/mas-hikvision/sdklib_linux64",
+    "sdkFile": "libhcnetsdk.so",
+    "logModel": 3,
+    "logPath": "/home/julifang/logs/sdk/hikvision/"
+  }
+}

@@ -1,0 +1,28 @@
+hikvision:
+  deviceInfoMap:
+    DS-carmara-jlf-001:
+      ip: 192.168.2.64
+      port: 8000
+      userName: admin
+      password: jlf_root
+      rtmpUrl: rtmp://127.0.0.1:1935/hls/stream,
+      picturePath: /home/julifang/hikvision/sdk/picture/jlf_001/
+      realDataPath: /home/julifang/hikvision/sdk/realdata/jlf_001/
+      # 10 s 每次保存指令保存10s录像
+      realDataSaveTime: 10
+    DS-carmara-jlf-002:
+      ip: 192.168.2.65
+      port: 8000
+      userName: admin
+      password: jlf_root
+      rtmpUrl: rtmp://127.0.0.1:1935/hls/stream
+      picturePath: /home/julifang/hikvision/sdk/picture/jlf_002/
+      realDataPath: /home/julifang/hikvision/sdk/realdata/jlf_002/
+      # 10 s 每次保存指令保存10s录像
+      realDataSaveTime: 10
+
+# Logger Config
+logging:
+  file:
+    path: /home/julifang/logs/mas-hikvision
+

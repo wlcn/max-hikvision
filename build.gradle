@@ -1,0 +1,45 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.6'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'org.now'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
+}
+
+dependencies {
+	implementation 'com.sun.jna:jna:3.0.9'
+	implementation 'com.sun.jna:examples:3.0.9'
+	implementation 'com.google.guava:guava:31.0.1-jre'
+	implementation 'commons-io:commons-io:20030203.000550'
+	implementation 'com.alibaba:fastjson:1.2.79'
+	implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+
+
+
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+//	implementation 'org.springframework.boot:spring-boot-starter-integration'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+//	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+//	implementation 'org.springframework.integration:spring-integration-http'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+//	runtimeOnly 'com.h2database:h2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//	testImplementation 'org.springframework.integration:spring-integration-test'
+}
+
+test {
+	useJUnitPlatform()
+}
