@@ -1,12 +1,12 @@
 # 海康威视集成
 
-[开发指南] (https://open.hikvision.com/docs/docId?productId=37a7978a747a454da559febb6e9e26f6&curNodeId=7a859777d16d49df86ae9c8adfbebe10)
+[开发指南](https://open.hikvision.com/docs/docId?productId=37a7978a747a454da559febb6e9e26f6&curNodeId=7a859777d16d49df86ae9c8adfbebe10)
 
 ## Requirement
 
 Java JDK 1.8 or greater;
 
-```
+
 ## Demo指令
 
 - 变焦抓图
